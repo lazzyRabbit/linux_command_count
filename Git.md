@@ -65,7 +65,7 @@
 * 查看分支关联    
 `git branch -vv`  
 
-* 删除分支
+* 删除分支      
 `git brangc -d <branch>`
 
 ### 合并
