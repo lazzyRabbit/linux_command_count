@@ -76,7 +76,7 @@
 * 删除分支      
 `git branch -d <branch>`
 
-* 查看远端和本地所有分支
+* 查看远端和本地所有分支     
 `git branch -a`
 
 ### 合并
