@@ -1,9 +1,9 @@
 ### clone项目
-* clone项目到本地
+* clone项目到本地     
 `git clone <http://yourGitAddress.git>`
 
 ### 查看状态
-* 查看工作区状态
+* 查看工作区状态     
 `git status`
 
 ### 回滚
@@ -86,10 +86,10 @@
 
 ### git checkout
 
-* 切换分支
+* 切换分支    
 `git checkout <branch_name>`
 
-* 放弃指定分支branch_name对指定文件file_name的修改
+* 放弃指定分支branch_name对指定文件file_name的修改     
 `git checkout <branch_name> <file_name>`
 
 ### 删除
