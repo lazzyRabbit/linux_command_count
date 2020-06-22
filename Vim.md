@@ -1,5 +1,40 @@
 ***借鉴自 vim-vide 的文档***
 
+# 目录
+
+  - [vim的五种模式](#vim%E7%9A%84%E4%BA%94%E7%A7%8D%E6%A8%A1%E5%BC%8F)
+  - [vim的哲学](#vim%E7%9A%84%E5%93%B2%E5%AD%A6)
+- [vim基本操作](#vim%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C)
+  - [打开/切换文件](#%E6%89%93%E5%BC%80%E5%88%87%E6%8D%A2%E6%96%87%E4%BB%B6)
+  - [退出/保存](#%E9%80%80%E5%87%BA%E4%BF%9D%E5%AD%98)
+  - [编辑](#%E7%BC%96%E8%BE%91)
+  - [删除](#%E5%88%A0%E9%99%A4)
+  - [移动](#%E7%A7%BB%E5%8A%A8)
+  - [复制/粘贴](#%E5%A4%8D%E5%88%B6%E7%B2%98%E8%B4%B4)
+  - [搜索](#%E6%90%9C%E7%B4%A2)
+- [vim进阶](#vim%E8%BF%9B%E9%98%B6)
+  - [代码补全](#%E4%BB%A3%E7%A0%81%E8%A1%A5%E5%85%A8)
+  - [拖动功能](#%E6%8B%96%E5%8A%A8%E5%8A%9F%E8%83%BD)
+  - [设置编码和格式](#%E8%AE%BE%E7%BD%AE%E7%BC%96%E7%A0%81%E5%92%8C%E6%A0%BC%E5%BC%8F)
+  - [代码折叠](#%E4%BB%A3%E7%A0%81%E6%8A%98%E5%8F%A0)
+  - [分割窗口](#%E5%88%86%E5%89%B2%E7%AA%97%E5%8F%A3)
+  - [宏](#%E5%AE%8F)
+- [vim插件](#vim%E6%8F%92%E4%BB%B6)
+  - [必装插件](#%E5%BF%85%E8%A3%85%E6%8F%92%E4%BB%B6)
+  - [NERDTree操作命令](#nerdtree%E6%93%8D%E4%BD%9C%E5%91%BD%E4%BB%A4)
+  - [TagList操作命令(需要用到Ctags)](#taglist%E6%93%8D%E4%BD%9C%E5%91%BD%E4%BB%A4%E9%9C%80%E8%A6%81%E7%94%A8%E5%88%B0ctags)
+  - [vim-commentary操作命令](#vim-commentary%E6%93%8D%E4%BD%9C%E5%91%BD%E4%BB%A4)
+- [部分插件配置文档（一般在~/.vim/vimrc下）](#%E9%83%A8%E5%88%86%E6%8F%92%E4%BB%B6%E9%85%8D%E7%BD%AE%E6%96%87%E6%A1%A3%E4%B8%80%E8%88%AC%E5%9C%A8vimvimrc%E4%B8%8B)
+  - [配置文件操作](#%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C)
+  - [TagList](#taglist)
+    - [需要用到 Ctags（带$的表示为Linux系统Shell提示符）](#%E9%9C%80%E8%A6%81%E7%94%A8%E5%88%B0-ctags%E5%B8%A6%E7%9A%84%E8%A1%A8%E7%A4%BA%E4%B8%BAlinux%E7%B3%BB%E7%BB%9Fshell%E6%8F%90%E7%A4%BA%E7%AC%A6)
+    - [修改配置（~/.vim/vimrc 下可修改）](#%E4%BF%AE%E6%94%B9%E9%85%8D%E7%BD%AEvimvimrc-%E4%B8%8B%E5%8F%AF%E4%BF%AE%E6%94%B9)
+- [资源](#%E8%B5%84%E6%BA%90)
+  - [vim资源](#vim%E8%B5%84%E6%BA%90)
+  - [其他](#%E5%85%B6%E4%BB%96)
+
+# Command
+
 ### vim的五种模式
 
 ```

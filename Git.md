@@ -1,3 +1,18 @@
+
+# 目录
+- [clone项目](#clone%E9%A1%B9%E7%9B%AE)
+- [查看状态](#%E6%9F%A5%E7%9C%8B%E7%8A%B6%E6%80%81)
+- [回滚](#%E5%9B%9E%E6%BB%9A)
+- [存储](#%E5%AD%98%E5%82%A8)
+- [子模块](#%E5%AD%90%E6%A8%A1%E5%9D%97)
+- [添加文件](#%E6%B7%BB%E5%8A%A0%E6%96%87%E4%BB%B6)
+- [分支](#%E5%88%86%E6%94%AF)
+- [合并](#%E5%90%88%E5%B9%B6)
+- [git checkout](#git-checkout)
+- [删除](#%E5%88%A0%E9%99%A4)
+
+# Command
+
 ### clone项目
 * clone项目到本地     
 `git clone <http://yourGitAddress.git>`
